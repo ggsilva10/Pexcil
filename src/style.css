@@ -1,0 +1,131 @@
+/* Estilos para telas Maiores*/
+.container {
+    max-width: 1440px;
+    margin: 0;
+    padding:  0 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para telas Menores*/
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+}
+/*div maior*/
+.container {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.cabeçalho  {
+    display: flex;
+}
+
+.logo {
+    display: block;
+    justify-content: center;
+    padding: 19px 24px;
+    background-color: #fe9900;
+
+}
+
+.menus {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 1440px;
+    font: inherit;
+    text-transform: uppercase;
+    background-color: #111111;
+    color: white;
+}
+
+.menu-list {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-header li {
+    padding: 15px 30px;
+}
+
+.redes-sociais {
+    margin-left: 20px;
+    background-color: #333333;
+    color:#eeeeee;
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociais i {
+    padding: 15px 30px;
+}
+
+.menu { 
+    display: flex;
+    justify-content: row;
+}
+
+.menu div {
+    display: flex;
+    padding: 100px;
+}
+ 
+h1 {
+    font-family: Oswald,sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 10px;
+    padding: 0px;
+    border: 0px;
+    size: 10px;
+}
+
+#strategy {
+    display: flex;
+    background-color: #eeeeee ;
+}
+
+#pencil {
+    background-color: #fe9900;
+}
+
+#monitor {
+    background-color: #333333;
+    color: #fe9900;
+}
+
+#support {
+    background-color: #666666;  
+    color: #eeeeee; 
+}
+
+.classList {
+    float: left;
+    width: 25%;
+    background-color: #333333;
+    color: #eeeeee;
+    li::before {
+        content: "\2022"; /* Código Unicode para o símbolo de bullet */
+        color: #eeeeee; /* Cor do símbolo */
+        margin-right: 0.5em; /* Espaçamento entre o símbolo e o texto */
+    }
+}
