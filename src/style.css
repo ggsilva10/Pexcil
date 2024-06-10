@@ -27,12 +27,19 @@ li {
     }
 
 }
+
+
+.body {
+    margin: 100px;
+}
+
 /*div maior*/
 .container {
     padding: 0;
-    margin: 0;
+    margin-top: 0;
     border: 0;
 }
+
 
 .cabeçalho  {
     display: flex;
@@ -84,24 +91,20 @@ li {
     justify-content: row;
 }
 
-.menu div {
+.divClass {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding: 100px;
-}
- 
-h1 {
-    font-family: Oswald,sans-serif;
-    text-transform: uppercase;
-    font-size: 28px;
-    margin: 10px;
-    padding: 0px;
-    border: 0px;
-    size: 10px;
+    i::before {
+        display: flex;
+        justify-content: center;
+        font-size: 75px;
+    }
 }
 
 #strategy {
-    display: flex;
-    background-color: #eeeeee ;
+    background-color: #eeeeee;
 }
 
 #pencil {
@@ -118,14 +121,26 @@ h1 {
     color: #eeeeee; 
 }
 
-.classList {
-    float: left;
-    width: 25%;
-    background-color: #333333;
-    color: #eeeeee;
-    li::before {
-        content: "\2022"; /* Código Unicode para o símbolo de bullet */
-        color: #eeeeee; /* Cor do símbolo */
-        margin-right: 0.5em; /* Espaçamento entre o símbolo e o texto */
-    }
+.meu-footer {
+    display:flex;
+    justify-content: space-around;
 }
+
+.classList {
+    width: 500px;
+    padding: 50px;
+    background-color: #111111;
+    color: #eeeeee;
+}
+
+.h3 {
+    display:flex;
+    align-items: center;
+}
+
+
+  /*li::before {
+    content: "\2022"; /* Código Unicode para o símbolo de bullet
+    color: #eeeeee; /* Cor do símbolo 
+    margin-right: 0.5em; /* Espaçamento entre o símbolo e o texto 
+}*/
