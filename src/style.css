@@ -1,6 +1,7 @@
 /* Estilos para telas Maiores*/
 body{
     margin: 0;
+    background-color: #d3d3d3;
 }
 
 .container {
@@ -8,11 +9,12 @@ body{
     margin-left: 220px;
     margin-top: none;
     border: none;
+
 }
 
 .cabeçalho  {
     display: flex;
-    height: 75px;
+    height: 100%;
 }
 
 .logo {
@@ -74,7 +76,7 @@ body{
     display: flex;
     flex-direction: column; 
     width: 100%;
-    padding: 70px;
+    padding: 65px 65px;
     i {
         display: flex;
         justify-content: center;
@@ -117,31 +119,39 @@ body{
 }
 
 #support {
-    background-color: #666666;  
+    background-color: #666666;
     color: #eeeeee; 
 }
 
-.meu-footer {
+.footer {
     display:flex;
-    justify-content: space-around;
-}
-
-.classList {
-    list-style-type: none;
-    width: 500px;
-    padding: 50px;
-    background-color: #111111;
-    color: #eeeeee;
-}
-
-.h3 {
-    display:flex;
+    justify-content :space-between;
+    justify-content : row;
     align-items: center;
+    font-family: Oswald, sans-serif;
+    background-color: #111;
+    color:#969696;
+    margin: 0px;
 }
 
-
-  /*li::before {
-    content: "\2022"; /* Código Unicode para o símbolo de bullet
-    color: #eeeeee; /* Cor do símbolo 
-    margin-right: 0.5em; /* Espaçamento entre o símbolo e o texto 
-}*/
+.classList{
+    display:flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    h3 {
+        margin: 20px 0;
+        text-transform: uppercase;
+        font-family: Oswald, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 0 5px;
+    }
+    ul {
+        padding: 0 15px;
+        margin: 0px;
+        list-style: none;
+    }
+    li {
+        font-size: 14px;
+    }
+}
