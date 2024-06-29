@@ -136,7 +136,8 @@ body {
         display: flex;
         justify-content: center;
         text-transform: uppercase;
-        font-family: "Roboto Condensed", sans-serif;
+        font-family: "Oswald", sans-serif;
+        font-weight: 400;
         font-size: 28px;
         margin: 10px;
         box-shadow: none;
@@ -146,10 +147,10 @@ body {
         display: flex;
         justify-content: center;
         text-align: center;
+        line-height: 20px;
         font-family: "Roboto Condensed", sans-serif;
         font-size: 15px;
         margin: 16px 0px;
-
     }
 }
 
@@ -174,20 +175,21 @@ body {
 }
 
 .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
     width: 100%;
-    max-width: 1440px;
+    max-height: 382px;
     font-family: Oswald, sans-serif;
     background-color: #111;
     color: #969696;
     margin: 0px;
 }
 
-.classList {
+.footer-content {
     display: flex;
+    flex: 1 1 25%;
+    max-width: 360px;
     flex-direction: column;
-    padding: 50px 50px;
+    padding: 50px 50px 60px 50px;
 
     h3 {
         margin: 20px 0;
@@ -199,11 +201,15 @@ body {
     }
 
     ul {
+        font-family:"Roboto Condensed",sans-serif;
         padding: 0 15px;
         margin: 0px;
+        
     }
 
     li {
+        font-family:"Roboto Condensed",sans-serif;
         font-size: 14px;
+        line-height: 2;
     }
 }
