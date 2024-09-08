@@ -17,7 +17,7 @@ body {
     width: 100%;
     max-height: 72px;
     background-color: #111;
-
+    
     p,
     li,
     ul {
@@ -118,7 +118,6 @@ body {
 .footer-content {
     display: flex;
     flex: 1 1 25%;
-    max-width: 360px;
     flex-direction: column;
     padding: 50px 50px 60px 50px;
 
@@ -144,6 +143,33 @@ body {
         line-height: 2;
     }
 }
+
+@media (max-width: 480px) {
+    .header .brand p {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .header .nav .menu li {
+        padding: 25.5px 8px;
+    }
+}
+
+@media (max-width: 480px ) {
+    .header .nav .social-media li {
+        padding: 24px 24px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .header .responsive-menu a .fas {
+        padding: 25px;
+    }
+}
+
 
 @media (max-width: 600px) {
     .header {
@@ -300,9 +326,9 @@ body {
         position: absolute;
         top: 0;
         right: 0;
-        display:block;
+        display: block;
         background-color: #111;
-        padding:27px;
+        padding: 27px;
     }
 }
 
@@ -315,5 +341,26 @@ body {
     .main {
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .footer {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;        
+    }
+}
+
+@media all and (max-width: 600px) {
+    .footer-content {
+        background-color: #111;
+        text-align: center;
+        ul {
+            list-style: none;
+        }
     }
 }
