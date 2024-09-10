@@ -171,6 +171,76 @@ body {
 }
 
 
+@media (max-width: 1024px) {
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-content {
+        flex: 0 0 50%;
+        box-sizing: border-box;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer-content {
+        flex: 0 0 50%;
+        box-sizing: border-box;
+    }
+}
+
+
+@media (max-width: 1024px){
+    .footer h3 {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer .footer-content {
+        text-align: center;
+        background-color: #111111;
+        color: #969696;
+        padding: 50px 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer .footer-content:nth-child(1){
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer .footer-content:nth-child(2){
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer .footer-content ul {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer .footer-content ul li{
+        list-style: none;
+    }
+}
+
+
 @media (max-width: 600px) {
     .header {
         position: sticky;
