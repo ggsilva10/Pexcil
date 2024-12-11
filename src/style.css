@@ -167,7 +167,7 @@ body {
 
 
 @media (max-width: 340px) {
-    .header .responsive-menu a .fas {
+    .header .menu-button a .fas {
         padding: 25px;
     }
 }
@@ -296,16 +296,33 @@ body {
 }
 
 .header .nav {
-    width: 100%;
     display: flex;
+    width: 100%;
 }
 
 
 @media all and (max-width: 768px) {
     .header .nav {
         display: none;
+        }
+    .show {
+        display: block !important;
+        background-color: #111;
+    }
+    }
+
+
+
+@media all and (max-width: 768px) {
+    .header .show {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1440px;
     }
 }
+
 
 .header .nav .menu {
     display: inline-block;
@@ -362,14 +379,14 @@ body {
 }
 
 @media all and (max-width: 768px) {
-    .header .responsive-menu {
+    .header .menu-button {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
 }
 
-.header .responsive-menu a .fas {
+.header .menu-button a .fas {
     display: none;
     font-size: 18px;
     border: none;
@@ -387,13 +404,13 @@ body {
 }
 
 @media all and (max-width: 768px) {
-    .header .responsive-menu a .fas {
+    .header .menu-button a .fas {
         display: block;
     }
 }
 
 
-.header .responsive-menu a .fas:hover {
+.header .menu-button a .fas:hover {
     color: #fff;
     background-color: #333;
 }

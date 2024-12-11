@@ -1,11 +1,5 @@
-window.onload = function() {
-    const nav = document.getElementById('#nav'); // Certifique-se de definir `nav`
-    
-    function clickMenu() {
-        if (nav.style.display == 'block') {
-            nav.style.display = 'none';
-        } else {
-            nav.style.display = 'block';
-        }
-    }
-};
+function clickMenu() {
+    console.log('ativo');
+    const menu = document.getElementById('nav');
+    menu.classList.toggle('show');
+}
