@@ -248,7 +248,7 @@ body {
         position: sticky;
         z-index: 1;
         top: 0;
-        flex-direction: row;
+        flex-direction: column;
         background-color: #fe9900;
     }
 }
@@ -284,6 +284,11 @@ body {
     font-weight: bold;
 }
 
+.header .nav .menu {
+    display: inline-block;
+    background-color: transparent;
+    margin-left: auto;
+}
 
 @media all and (max-width: 768px) {
     .header .brand p {
@@ -305,29 +310,24 @@ body {
     .header .nav {
         display: none;
         }
-    .show {
-        display: block !important;
-        background-color: #111;
     }
-    }
-
 
 
 @media all and (max-width: 768px) {
     .header .show {
         display: flex;
-        text-align: center;
-        flex-direction: column;
         width: 100%;
         max-width: 1440px;
+        background-color: #111; 
+        flex-direction: column;
+        text-align: center;
     }
 }
 
-
-.header .nav .menu {
-    display: inline-block;
-    background-color: transparent;
-    margin-left: auto;
+@media all and (max-width: 768px) {
+    .header .nav .menu {
+        margin-left: 0;
+    }
 }
 
 .header .nav .menu li:last-child {
