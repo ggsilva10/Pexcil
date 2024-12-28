@@ -4,4 +4,4 @@
 
 - Visualize [aqui](https://ggsilva10.github.io/Pexcil/src).
 
-- Projeto inspirado em uma marca: [Pexcil](https://ggsilva10.github.io/Pexcil/src](https://pexcil.com/)).
+- Projeto inspirado em uma marca: [Pexcil](https://pexcil.com/).
